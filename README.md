@@ -13,4 +13,6 @@ optim_cd.converge() # Gets solved in exactly n iterations where n=dimension of A
 optim_sd.plot_convergence()
 optim_cd.plot_convergence()
 ```
-![](download\ (1).png)
+## Visualization
+![Conjugate Direction](https://github.com/shivamsaboo17/Optimization/blob/master/download%20(1).png)
+![Steepest Descent](https://github.com/shivamsaboo17/Optimization/blob/master/download%20(2).png)

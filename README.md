@@ -1,5 +1,7 @@
 # Optimization
 Implementation of steepest descent and conjugate gradient algorithms in numpy
+#### Note
+These algorithm work only when the quadratic form of the equation is paraboloid and has no saddle points.
 ## Usage
 ```python
 from optimizers import SteepestDescent, ConjugateDirection
@@ -11,3 +13,4 @@ optim_cd.converge() # Gets solved in exactly n iterations where n=dimension of A
 optim_sd.plot_convergence()
 optim_cd.plot_convergence()
 ```
+![](download\ (1).png)
